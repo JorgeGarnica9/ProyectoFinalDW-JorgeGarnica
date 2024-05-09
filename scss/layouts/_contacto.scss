@@ -1,0 +1,57 @@
+.formu {
+  background-color: $secondary-color;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: aliceblue;
+  font-weight: 700px;
+  min-width: 30vw;
+
+  textarea {
+    height: 100px;
+    resize: none;
+    width: 100%;
+  }
+
+  input {
+    padding: 10px;
+    width: 100%;
+  }
+
+  .contactanos-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
+
+    button {
+      padding: 10px;
+      outline: none;
+      background-color: $main-color;
+      width: 100%;
+      color: aliceblue;
+      border: 2px solid aliceblue;
+      border-radius: 5px;
+
+      &:hover {
+        background-color: $main-color;
+        font-weight: 700;
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+.texto {
+  h2 {
+    @include font-responsive(1.3rem, 900px, none);
+    color: aliceblue
+  }
+
+  h3 {
+    @include font-responsive(1.2rem, 150px, italic);
+    color: aliceblue;
+  }
+}

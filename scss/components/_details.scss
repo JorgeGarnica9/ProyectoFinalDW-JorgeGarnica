@@ -1,0 +1,27 @@
+.bg-headfoot {
+  background-color: $main-color;
+}
+
+.bg-offcanvas {
+  background-color: $secondary-color;
+}
+
+.borde {
+  border: 2px solid white;
+}
+
+.sombra {
+  filter: drop-shadow(5px 5px 10px rgba(240, 248, 255, 0.466));
+}
+
+.hide {
+  overflow: hidden;
+}
+
+main {
+  background-image: url("../images/bground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}

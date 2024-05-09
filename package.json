@@ -1,0 +1,11 @@
+{
+  "name": "prentrega-3",
+  "version": "1.0.0",
+  "description": "Prentrega 3 - Desarrollo web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jorge Garnica",
+  "license": "ISC"
+}

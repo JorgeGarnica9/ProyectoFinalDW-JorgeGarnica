@@ -1,0 +1,49 @@
+.boton {
+  background-color: $main-color;
+  color: aliceblue;
+  padding: 10px 30px;
+  border-bottom-right-radius: 50px;
+  border: 2px solid aliceblue;
+  transition: 0.4s;
+
+  &:hover {
+    background-color: $main-color;
+    font-weight: 700;
+    font-size: 1rem;
+  }
+}
+
+.media {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 10vh;
+
+  .media-content {
+    @include flex(column, normal, space-between, 0);
+    position: relative;
+    width: 20%;
+    height: 500px;
+    min-width: 250px;
+    background-color: $secondary-color;
+    padding: 10px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 50px 0;
+    color: aliceblue;
+    border: 2px solid $main-color; 
+
+    a {
+      text-decoration: none;
+      text-align: center;
+    }
+
+    img {
+      border-top-left-radius: 40px;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+}

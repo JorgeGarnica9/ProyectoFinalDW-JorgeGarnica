@@ -1,0 +1,15 @@
+.carousel-inner,
+.carousel-item {
+  height: 500px;
+
+  img {
+    @include img(100%, 100%, contain);
+  }
+}
+
+.box {
+  padding: 1rem;
+  margin: 0%;
+  transition: 0.4s;
+  width: 100%;
+}

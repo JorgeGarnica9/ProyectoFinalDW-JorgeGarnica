@@ -1,0 +1,19 @@
+@mixin flex($direction, $align, $justify, $gap) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+  justify-content: $justify;
+  gap: $gap;
+}
+
+@mixin img($width, $height, $fit) {
+  width: $width;
+  height: $height;
+  object-fit: $fit;
+}
+
+@mixin font-responsive($size, $weight, $style) {
+  font-size: $size;
+  font-weight: $weight;
+  font-style: $style;
+}

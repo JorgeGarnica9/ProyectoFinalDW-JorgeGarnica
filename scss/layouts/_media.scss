@@ -1,0 +1,47 @@
+.producto {
+  width: 100%;
+  background-color: $secondary-color;
+  min-width: 250px;
+  padding: 5px;
+  margin: 10px;
+  overflow: hidden;
+  border: 2px solid $main-color;
+
+  &:hover img {
+    height: 400px;
+  }
+
+  h4 {
+    font-style: italic;
+    font-size: 1rem;
+    align-self: flex-end;
+  }
+
+  img {
+    @include img(100%, 300px, cover);
+    transition: 0.5s;
+  }
+
+  .producto-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    color: aliceblue;
+    transition: 0.5s;
+
+    p {
+      color: aliceblue;
+      text-align: justify;
+    }
+  }
+}
+
+.box{
+  align-self: center;
+  
+  h2{
+    color: aliceblue;
+    background-color: #0000006c;
+  }
+}
