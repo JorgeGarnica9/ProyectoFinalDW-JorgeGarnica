@@ -47,7 +47,7 @@
 .texto {
   h2 {
     @include font-responsive(1.3rem, 900px, none);
-    color: aliceblue
+    color: aliceblue;
   }
 
   h3 {

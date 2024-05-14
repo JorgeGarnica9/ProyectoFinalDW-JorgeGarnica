@@ -1,8 +1,16 @@
 .about {
   display: flex;
+  flex-direction: row-reverse;
   gap: 20px;
   justify-content: space-between;
   padding: 16px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
 
   .text-box {
     @include font-responsive(1.2rem, bold, normal);
@@ -10,10 +18,11 @@
     color: aliceblue;
     text-align: justify;
     line-height: 1.5rem;
+    min-width: 50%;
   }
 
   .about-content {
-    @include flex(column, normal, normal, 0);
+    @include flex(column, normal, space-between, 0);
     min-width: 300px;
     width: 20%;
     height: 500px;
@@ -28,6 +37,7 @@
     img {
       @include img(100%, auto, contain);
       border-top-left-radius: 40px;
+      border: 2px solid white;
     }
 
     h2 {
@@ -35,5 +45,3 @@
     }
   }
 }
-
-
