@@ -36,6 +36,48 @@ main {
   border-bottom: 3px solid aliceblue;
 }
 
+.about {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 16px;
+}
+.about .text-box {
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-style: normal;
+  display: inline;
+  color: aliceblue;
+  text-align: justify;
+  line-height: 1.5rem;
+}
+.about .about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: normal;
+  justify-content: normal;
+  gap: 0;
+  min-width: 300px;
+  width: 20%;
+  height: 500px;
+  background-color: #725ac1;
+  padding: 10px;
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 50px 0;
+  color: aliceblue;
+  border: 2px solid #242038;
+}
+.about .about-content img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-top-left-radius: 40px;
+}
+.about .about-content h2 {
+  font-size: 1.5rem;
+}
+
 .formu {
   background-color: #725ac1;
   padding: 10px;

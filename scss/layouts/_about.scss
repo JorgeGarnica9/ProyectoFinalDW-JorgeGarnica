@@ -1,0 +1,39 @@
+.about {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 16px;
+
+  .text-box {
+    @include font-responsive(1.2rem, bold, normal);
+    display: inline;
+    color: aliceblue;
+    text-align: justify;
+    line-height: 1.5rem;
+  }
+
+  .about-content {
+    @include flex(column, normal, normal, 0);
+    min-width: 300px;
+    width: 20%;
+    height: 500px;
+    background-color: $secondary-color;
+    padding: 10px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 50px 0;
+    color: aliceblue;
+    border: 2px solid $main-color;
+
+    img {
+      @include img(100%, auto, contain);
+      border-top-left-radius: 40px;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+
