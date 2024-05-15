@@ -190,6 +190,7 @@ main {
     align-items: center;
     justify-content: center;
     height: 100%;
+    padding: 15px;
   }
 }
 .hero h1,
@@ -214,7 +215,7 @@ main {
 }
 @media (max-width: 768px) {
   .hero .text-box .parrafo {
-    text-align: justify;
+    text-align: center;
   }
 }
 .hero .hero-img {
