@@ -252,7 +252,7 @@ main {
   background-color: #242038;
   color: aliceblue;
   padding: 10px 30px;
-  border-bottom-right-radius: 50px;
+  border-bottom-right-radius: 40px;
   border: 2px solid aliceblue;
   transition: 0.4s;
 }
